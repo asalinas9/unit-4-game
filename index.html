@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <title>Unit-4-Game</title>
+</head>
+    <style>
+
+    </style>
+<body>
+    <div>
+        <div class="title">TeamsCollector!</div>
+        <div class="container"></div>
+    </div>
+    <div class="Rules">
+        <ol>
+            <li>You will be given a random number at the start of the game.</li>
+            <li>There are four teams below.</li>
+            <li>By clicking on a team you will add a specific amount of points to your total score</li>
+            <li>You win the game by matching your total score to the random number.</li>
+			<li>You lose the game if your total score goes above the random number.</li>
+			<li>The value of each team is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each team.</li>
+        </ol>
+    </div>
+
+    <div class="matchedNumber">
+        <span id="randomNumber"></span>
+            
+        </div>
+        <div class="Win-n-Losses">
+            <h2>Wins:
+                <span id= "numberWins"></span>
+                </br>
+                Losses: 
+                <span id= "numberLosses"></span>
+            </h2>
+        </div>
+
+    </div>
+    <div> 
+        <div class="Logos">
+            <img src="assets/images/barca.png" class="teamImage" id="box1" alt="barca" width="100" height="120"></div>
+            <img src="assets/images/Juventus.jpeg" class="teamImage" id="box2" alt="juve" width="100" height="120"></div>
+            <img src="assets/images/Liverpool.png" class="teamImage" id="box3" alt="liverpool" width="100" height="120"></div>
+            <img src="assets/images/real madrid.jpeg" class="teamImage" id="box4" alt="realM" width="100" height="120"> 
+    </div>
+
+    <div>
+        
+            <div class="scoreDisplay">
+                <p>Your total score is</p>
+                <span id="playerScore"></span>
+
+        </div>
+        <script src="assets/javascript/game.js"></script>
+
+       
+</body>
+
+</html>
