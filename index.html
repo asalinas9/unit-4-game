@@ -7,68 +7,31 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <title>Unit-4-Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <title>Word Guess</title>
+
 </head>
-    <style>
 
-    </style>
 <body>
-    <div>
-        <div class="container">
-            <div class="jumbotron" style="background-color:aquamarine;">
-            <h1>Team Collector</h1>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-9 instructions">
-    <div class="Rules">
-        <ol>
-            <li>You will be given a random number at the start of the game.</li>
-            <li>There are four teams below.</li>
-            <li>By clicking on a team you will add a specific amount of points to your total score</li>
-            <li>You win the game by matching your total score to the random number.</li>
-			<li>You lose the game if your total score goes above the random number.</li>
-			<li>The value of each team is hidden from you until you click on it.</li>
-			<li>Each time when the game starts, the game will change the values of each team.</li>
-        </ol>
-    </div>
-          </div>
-          
-          <div class="row">
-           
-    <div class="matchedNumber">
-        <span id="randomNumber"></span>
-    </div>
+
+    <div id="container">
+        <div class="main-container">
+            <h1>DB Super Character Guess Game</h1>
+            <h3 class="ptSans">Press the keyboard to guess the letters!</h3>
+            <h3 class="bottom-ptSans">Hint: Words are Dragon Ball Super related</h3>
+            <p id="guess"></p>
+            <p class="size">Guesses Left: <span id="left" class="sizeNumber ptSans"></span></p>
+            <p class="size">Wrong Letters: <span id="wrong" class="sizeNumber ptSans"></span></p>
+            <p class="size">Win: <span id="wins" class="sizeNumber ptSans"></span>Lose: <span id="losses"
+                    class="sizeNumber ptSans"></span></p>
+            <div id="img"></div>
         </div>
-        <div class="Win-n-Losses">
-            <h2>Wins:
-                <span id= "numberWins"></span>
-                </br>
-                Losses: 
-                <span id= "numberLosses"></span>
-            </h2>
-        </div>
-
-    </div>
-    <div> 
-        <div class="Logos">
-            <img src="assets/images/barca.png" class="img-thumnail barca"  alt="barca" width="150" height="120"></div>
-            <img src="assets/images/Juventus.jpeg" class="img-thumnail juve" alt="juve" width="150" height="120"></div>
-            <img src="assets/images/Liverpool.png" class="img-thumnail liverpool" alt="liverpool" width="150" height="120"></div>
-            <img src="assets/images/real madrid.jpeg" class="img-thumnail realM" alt="realM" width="150" height="120"> 
     </div>
 
-    <div>
-        
-            <div class="scoreDisplay">
-                <p>Your total score is</p>
-                <span id="finalScore"></span>
+    <script src="assets/javascript/game.js"></script>
 
-        </div>
-        <script src="assets/javascript/game.js"></script>
 
-       
 </body>
 
 </html>
