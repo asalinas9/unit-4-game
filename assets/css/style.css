@@ -1,11 +1,8 @@
-body {
-    background: #FFB03A;
-}
 
 #container {
     background-image:url(../images/DB5.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -20,13 +17,13 @@ body {
     margin: auto;
 }
 
-.ptSans, h1 {
+.ptSans {
 	font-family: 'PT Sans', sans-serif;
-	font-weight: 800;
+	font-weight: 600;
 }
 
 .bottom-ptSans {
-	font-weight: 200;
+	font-weight: 300;
 }
 
 h1 {
@@ -35,6 +32,7 @@ h1 {
     padding-top: 25%;
     padding-bottom: 10px;
     font-size: 48px;
+    font-weight: 900;
 }
 
 .bottom {
@@ -71,6 +69,6 @@ h1 {
 }
 
 #winImage {
-	width:300px;
+	width:400px;
 	margin-bottom: 10px;
 }
