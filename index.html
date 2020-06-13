@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/reset.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
+		<title>Word Guess</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <title>Word Guess</title>
+	<body>
+		<div class="jumbotron">
+			<div id="container">
+				<div class="main-container">
+					<h1>DB Super Character Guess Game</h1>
+					<h3 class="ptSans">Press the keyboard to guess the letters!</h3>
+					<h3 class="bottom-ptSans">Hint: Words are Dragon Ball Super related</h3>
+					<p id="guess"></p>
+				</div>
+				<div class="container">
+					<p id="guess"></p>
+					<p class="size">Guesses Left: <span id="left" class="sizeNumber ptSans"></span></p>
+					<p class="size">Wrong Letters: <span id="wrong" class="sizeNumber ptSans"></span></p>
+					<p class="size">Win: <span id="wins" class="sizeNumber ptSans"></span>Lose: <span id="losses" class="sizeNumber ptSans"></span></p>
+					<div id="img"></div>
+				</div>
+			</div>
+		</div>
 
-</head>
-
-<body>
-
-    <div id="container">
-        <div class="main-container">
-            <h1>DB Super Character Guess Game</h1>
-            <h3 class="ptSans">Press the keyboard to guess the letters!</h3>
-            <h3 class="bottom-ptSans">Hint: Words are Dragon Ball Super related</h3>
-            <p id="guess"></p>
-            <p class="size">Guesses Left: <span id="left" class="sizeNumber ptSans"></span></p>
-            <p class="size">Wrong Letters: <span id="wrong" class="sizeNumber ptSans"></span></p>
-            <p class="size">Win: <span id="wins" class="sizeNumber ptSans"></span>Lose: <span id="losses"
-                    class="sizeNumber ptSans"></span></p>
-            <div id="img"></div>
-        </div>
-    </div>
-
-    <script src="assets/javascript/game.js"></script>
-
-
-</body>
-
+		<script src="assets/javascript/game.js"></script>
+	</body>
 </html>
