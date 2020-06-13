@@ -5,6 +5,12 @@
 
 ### Rules
 
-A characters guessing game in which the user is provided with incomplete fields  and guesses what DB Super Character is. If you guess the name correctly, an image of the correct character will be displayed on the bottom left corner.
+A guessing game in which the user is provided with incomplete fields and must guess which DB Super Character is. If you guess the name correctly, an image of the DB Super fighter will be displayed at the bottom left corner.
 
 ![](assets/images/appscrn.png)
+
+# Technology Used
+
+* _HTML
+* _CSS
+* Javascript
