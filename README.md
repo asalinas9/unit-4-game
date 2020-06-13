@@ -11,6 +11,6 @@ A guessing game in which the user is provided with incomplete fields and must gu
 
 # Technology Used
 
-* _HTML
-* _CSS
-* Javascript
+* _HTML_
+* _CSS_
+* _Javascript_
